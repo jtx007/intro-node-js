@@ -19,6 +19,7 @@ program
         const contacts = getContacts()
         contacts[key] = {firstName, lastName, phoneNumber}
         saveContacts(contacts)
+        console.log("contact saved")
       })
   })
 
